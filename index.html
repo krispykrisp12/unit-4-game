@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infinity Stone Collector</title>
+
+    <!-- Icon image -->
+    <link rel="shortcut icon" type="img/jpeg" href="assets/image/gaunlet.jpg">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Hind" rel="stylesheet">
+    <!-- Resest css -->
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Infinity Stone Collector</h1>
+        </header>
+        <section>
+            <!-- Rules of the game -->
+            <p>You will be given a random number at the start of the game</p>
+
+            <p>There are four of the 6 infinity stones to help power up the gaulet.
+            By clicking on a stones you will add a specific amount of points to your
+            total score.</p>
+
+            <p>You win the game by matching your total score to random number, you lose the game if you
+            over power the gaunlet</p>
+
+            <p>The value of each infinity stone is hidden from you until you click on it</p>
+
+            <p>Each time the game restarts, the value of each infinity stone will change</p>
+
+        </section>
+        <aside>
+            <h2>Power up the gaunlet</h2>
+
+            <!-- Infinity stone -->
+            <!-- Mind stone -->
+            <div>
+                <img src="assets/image/mind.png" id="mind" class="stone" alt="mind stone">
+            </div>
+
+            <!-- Space stone -->
+            <div>
+                <img src="assets/image/space.jpeg" id="space" class="stone" alt="space stone">
+            </div>
+
+            <!-- Reality stone -->
+            <div>
+                <img src="assets/image/reality.jpeg" id="reality"class="stone" alt="reality stone">
+            </div>
+
+            <!-- Time stone -->
+            <div>
+                <img src="assets/image/time.jpg" id="time" class="stone" alt="time stone">
+            </div>
+
+        </aside>
+
+        <!-- Random number section -->
+        <section class="generated-number">
+            <div id="randum-number"></div>
+        </section>
+
+        <!-- Win/loss/point section -->
+        <section id="inline">
+            <div>wins: <span id="win-counter"></span></div>
+            <div>losses: <span id="loss-counter"></span></div>
+            <div>Your score is:<span id="score"></span></div>
+        </section>
+
+        <footer>
+
+            <p> &copy; Kris Wilson </p>
+
+        </footer>
+
+    </div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+</html>

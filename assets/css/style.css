@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body {
+    background: black;
+    font-family: "Hind", Arial, Helvetica, sans-serif;
+    color: rgb(165, 154, 154);
+}
+
+/* =============Header section==================== */
+header {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    background: rgb(65, 55, 55);
+    opacity: 0.9;
+}
+
+/* ============Content Section========================= */
+
+.container {
+  margin: auto;
+  width: 80%;
+  background-image: url("../image/war.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* text-align: center; */
+  background-position: center;
+  padding: 20px;
+    
+}
+section {
+    background: rgb(65, 55, 55);
+    padding: 10px;
+    margin: 20px;
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    opacity: 0.9;
+    
+}
+
+section p{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px
+}
+
+#inline div {
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.generated-number {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+aside {
+    padding: 15px;
+    margin: 20px;
+    float: right;
+    width: 30%;
+    background: rgb(65, 55, 55);
+    text-align: center;
+    opacity: 0.9;
+}
+
+aside h2 {
+    margin: 20px;
+    font-size: 25px;
+
+}
+
+aside img {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding: 2px;
+}
+
+/* ==============Footer Section===================== */
+
+footer {
+    clear: both;
+    background: rgb(65, 55, 55);
+    padding: 30px;
+    text-align: center;
+    opacity: 0.9;
+}
