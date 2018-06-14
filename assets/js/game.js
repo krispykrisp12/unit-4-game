@@ -16,7 +16,7 @@ function startGame(){
     // Data-number function called inside of start game
 
 
-
+    // Resetting count variable and clearing score for next round
     $("#score").empty();
     count = 0;  
 
@@ -36,14 +36,20 @@ function generate(){
 
 
 // Data function
-function data(){
+function dataRandom(){
     $("#time").attr("data-number", generate());
     $("#space").attr("data-number", generate());
     $("#reality").attr("data-number", generate());
     $("#mind").attr("data-number", generate());
 }
 
-data();
+// -------------------------------
+// Calling the dataRandom function
+dataRandom();
+// -------------------------------
+
+
+// ========================================================
 // Click function
 $(".stone").on("click", function(){
 
@@ -71,6 +77,7 @@ $(".stone").on("click", function(){
         startGame();
     }
 }); 
+// ========================================================
 
 
 
